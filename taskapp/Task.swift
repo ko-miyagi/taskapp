@@ -21,5 +21,5 @@ class Task: Object {
     @Persisted var date = Date()
     
     //カテゴリ
-    @Persisted var category = ""
+    @Persisted var category: Category?
 }
